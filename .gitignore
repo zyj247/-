@@ -1,0 +1,20 @@
+# 依赖（体积大，clone 后 npm install 自行安装）
+node_modules/
+
+# 构建产物与临时文件
+dist/
+build/
+out/
+*.log
+npm-debug.log*
+
+# 本地环境与密钥
+.env
+.env.*
+*.pem
+*.key
+
+# 系统文件
+.DS_Store
+Thumbs.db
+desktop.ini

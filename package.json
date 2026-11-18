@@ -1,0 +1,14 @@
+{
+  "name": "gz036-module2-verification",
+  "version": "1.0.0",
+  "private": true,
+  "description": "GZ036 模块二合约离线编译及本地 EVM 验证工具",
+  "scripts": {"compile": "node tools/compile.cjs", "test": "node tools/test.cjs"},
+  "dependencies": {
+    "solc-0425": "npm:solc@0.4.25",
+    "solc-0610": "npm:solc@0.6.10",
+    "solc-083": "npm:solc@0.8.3",
+    "ethers": "6.16.0",
+    "ganache": "7.9.2"
+  }
+}
